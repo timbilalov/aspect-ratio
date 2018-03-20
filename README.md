@@ -33,6 +33,8 @@ aspect-ratio--upd(w, h = w)
 
 ## Demo
 
+https://timbilalov.github.io/aspect-ratio/
+
 https://codepen.io/unfriend/pen/JLKzvg
 
 ![Demo screencast](demo.gif?raw=true)
