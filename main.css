@@ -1,0 +1,45 @@
+body {
+    padding: 1rem;
+    margin: 0;
+}
+
+.g-aspect {
+    background-color: #ccc;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.g-text {
+    background-color: #555;
+    color: #fff;
+    padding: 1rem;
+}
+
+.g-aspect--ori {
+    position: relative;
+}
+
+.g-aspect--ori:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 33.33333333333333%;
+}
+
+.g-aspect--ori .g-aspect-inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.g-aspect--upd {
+    padding-top: 33.33%;
+    box-sizing: border-box;
+}
+
+.g-aspect--upd .g-aspect-inner {
+    margin-top: -33.33%;
+}
